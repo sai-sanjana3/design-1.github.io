@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+    <link href="https://fonts.cdnfonts.com/css/quantico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            font-family: 'Quantico',sans-serif;
+        }
+        .container{
+            width: 600px;
+            height: 800px;
+            margin: auto;
+            background: url('../assets/confirmBackground.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #FFFFFF;
+        }
+        .letter-head,.letter-data,footer{
+            padding-left: 2rem;
+        }
+        .letter-head{
+            padding-top: 5rem;
+            padding-bottom: 4.125rem;
+        }
+        .letter-heading{
+            font-weight: 700;
+            font-size: 40px;
+        }
+        .letter-heading span{
+            -webkit-text-fill-color: #000; 
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #fff;
+        }
+        .letter-data{
+            padding-bottom: 3rem;
+        }
+        .letter-data-title{
+            padding-bottom: 1rem;
+        }
+        .letter-data-desc{
+            padding-bottom: 2rem;
+        }
+        .letter-data-desc-content{
+            padding-bottom: 1.5rem;
+            font-size: 16px;
+        }
+        .btn{
+            padding: 1rem 3rem 1rem;
+            border: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+            font-size: .9rem;
+            box-shadow: 2px 2px 0px #FFFFFF;
+        }
+        .letter-data{
+            max-width: 65%;
+        }
+        .letter-data-title{
+            font-weight: 400;
+            font-size: 32px;
+        }
+        span.blue{
+            color: #2CB2FF;
+        }
+        footer{
+            text-align: center;
+        }
+        footer *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .footer-text{
+            font-size: 12px;
+        }
+        .copy-text{
+            font-size: 9px;
+        }
+        footer .logo{
+            margin-bottom: 1rem;
+        }
+        .social-icons{
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 30%;
+            margin-bottom: 1.6rem;
+        }
+        .footer-text{
+            margin-bottom: 2rem;
+        }
+        .copy-text{
+            color: #C6C6C6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="letter-head">
+            <h1 class="letter-heading">Gateway to <span>Web</span> 3.0</h1>
+            <span class="letter-sub-title">
+                A trip into the realms of Blockchain & Cryptocurrencies
+            </span>
+        </div>
+        <div class="letter-data">
+            <h2 class="letter-data-title">
+                Voila!
+                <img src="../assets/wave-hand.svg" alt="">
+            </h2>
+            <div class="letter-data-desc">
+                <p class="letter-data-desc-content">
+                    You made it, <span class="blue">Gayatri</span>. <br>
+                    Thanks a ton for hopping onboard with us on this <span class="blue">Blockchain and Cryptocurrencies 101</span> journey.
+                    Pretty excited to have you here.
+                </p>
+                <p class="letter-data-desc-content">
+                    Before diving in, you need to confirm your subscription by hitting the button below.
+                </p>
+            </div>
+            <button class="letter-btn btn">Get Started</button>
+        </div>
+        <footer>
+            <img src="../assets/logo.svg" alt="" class="logo">
+            <div class="social-icons">
+                <img src="../assets/link.svg" alt="" class="social-icon">
+                <img src="../assets/yt.svg" alt="" class="social-icon">
+                <img src="../assets/fb.svg" alt="" class="social-icon">
+                <img src="../assets/ig.svg" alt="" class="social-icon">
+            </div>
+            <p class="footer-text">
+                This email was sent to hello@hey.com. <br>
+                You can update your email subscription preferences at any time.
+            </p>
+            <span class="copy-text">
+                Copyright 2020    Enhance42
+            </span>
+        </footer>
+    </div> 
+</body>
+</html>
